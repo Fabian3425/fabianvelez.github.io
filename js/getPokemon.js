@@ -16,7 +16,7 @@ function mostrarPokemon(poke){
     const div = document.createElement('div');
     div.classList.add('pokemon');
     div.innerHTML = `
-    <img class="pokeball" src="/image/pokeball.png" alt="Pokemon Logo">
+    <img class="pokeball" src="https://fabian3425.github.io/fabianvelez.github.io/image/pokeball.png" alt="Pokemon Logo">
     <div class="wrap_poke--img">
     <img class="pokemon_image" src="${poke.sprites.other["official-artwork"].front_default}" /> 
     </div>
